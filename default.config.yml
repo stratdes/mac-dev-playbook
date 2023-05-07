@@ -6,12 +6,20 @@ configure_terminal: true
 configure_osx: false
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
-dockitems_remove: []
-# - Launchpad
-# - TV
-# - Podcasts
-# - 'App Store'
+configure_dock: true
+dockitems_remove:
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+  - Mensajes
+  - Mapas
+  - FaceTime
+  - Contactos
+  - Fotos
+  - Freeform
+  - 'Música'
+  - Descargas
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
@@ -67,6 +75,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - whatsapp
   - zoom
+  - adguard
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
