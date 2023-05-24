@@ -59,6 +59,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - buo/cask-upgrade
   - symfony-cli/tap
 
 homebrew_cask_appdir: /Applications
@@ -78,11 +79,10 @@ homebrew_cask_apps:
   - whatsapp
   - zoom
   - adguard
+  - microsoft-office
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 409203825, name: "Numbers" }
-  - { id: 409201541, name: "Pages" }
   - { id: 1258530160, name: "Focus To-Do" }
 
 osx_script: "~/.osx --no-restart"
