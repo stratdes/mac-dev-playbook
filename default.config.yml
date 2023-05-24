@@ -57,8 +57,6 @@ homebrew_installed_packages:
   - zsh-history-substring-search
 
 homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
   - buo/cask-upgrade
   - symfony-cli/tap
 
