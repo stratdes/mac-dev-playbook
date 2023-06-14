@@ -57,6 +57,7 @@ homebrew_installed_packages:
   - zsh-history-substring-search
   - protobuf
   - rust
+  - container-structure-test
 
 homebrew_taps:
   - buo/cask-upgrade
