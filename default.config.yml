@@ -58,6 +58,7 @@ homebrew_installed_packages:
   - protobuf
   - rust
   - container-structure-test
+  - terraform
 
 homebrew_taps:
   - buo/cask-upgrade
@@ -87,6 +88,7 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 1258530160, name: "Focus To-Do" }
+  - { id: 1176895641, name: "Spark" }
 
 osx_script: "~/.osx --no-restart"
 
