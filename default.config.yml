@@ -59,6 +59,7 @@ homebrew_installed_packages:
   - rust
   - container-structure-test
   - terraform
+  - helm
 
 homebrew_taps:
   - buo/cask-upgrade
