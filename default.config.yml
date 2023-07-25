@@ -21,11 +21,15 @@ dockitems_remove:
   - 'Música'
   - Descargas
   - Recordatorios
+  - Mail
 
 dockitems_persist:
  - name: "Focus To-Do"
    path: "/Applications/WebPomodoro.app/"
    pos: 3
+ - name: "Spark"
+   path: "/Applications/Spark.app/"
+   pos: 4
 
 configure_sudoers: false
 sudoers_custom_config: ''
